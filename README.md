@@ -10,6 +10,8 @@ Social-Profile solve this issue by creating a user preferences profile from his 
 
 These preferences are noted from o to 1, 0=Donot like it, 0.5=Neutral, 1.0=Like it a lot.
 
+[There's some documentation here, but in french sorry](https://drive.google.com/file/d/0B9rxAiua5lIZa1FBTFRMU3Rvd1U/view?usp=sharing)
+
 
 ## How to use it
 
