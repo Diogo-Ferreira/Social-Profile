@@ -9,3 +9,13 @@ Social-Profile solve this issue by creating a user preferences profile from his 
 * what kind of events does the user like to go?
 
 These preferences are noted from o to 1, 0=Donot like it, 0.5=Neutral, 1.0=Like it a lot.
+
+
+## How to use it
+
+The service works on RabbitMQ, in order to launch a job you need to send a facebook user token to the queue "input_queue", then when the jobs finishes it will be avaible at the queue "job_done".
+
+## Architecture
+
+The architecture is based on microservices, since each tag (music, movies, events) needs a different processing and different external sources.
+
