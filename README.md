@@ -19,4 +19,4 @@ The service works on RabbitMQ, in order to launch a job you need to send a faceb
 
 The architecture is based on microservices, since each tag (music, movies, events) needs a different processing and different external sources.
 
-[archi](https://github.com/Diogo-Ferreira/Social-Profile/blob/master/archi.jpg)
+![archi](https://github.com/Diogo-Ferreira/Social-Profile/blob/master/archi.jpg)
